@@ -1,0 +1,46 @@
+{
+    "folder-name": "pdf",
+    "pdf-count": 10,
+    "documents": [
+        {
+            "file-name": "1",
+            "paper-title": "The Future of CISE Distributed Research Infrastructure"
+        },
+        {
+            "file-name": "2",
+            "paper-title": "Development of testbed for cyber-manufacturing security issues"
+        },
+        {
+            "file-name": "3",
+            "paper-title": "FIT  loT-LAB:  A Large Scale Open Experimental loT Testbed"
+        },
+        {
+            "file-name": "4",
+            "paper-title": "GENI: A federated testbed for innovative network experiments"
+        },
+        {
+            "file-name": "5",
+            "paper-title": "Merge: An Architecture for Interconnected Testbed Ecosystems"
+        },
+        {
+            "file-name": "6",
+            "paper-title": "SAVI Testbed: Control and Management of Converged Virtual ICT Resources"
+        },
+        {
+            "file-name": "7",
+            "paper-title": "A simulation-based platform for assessing the impact of cyber-threats on smart manufacturing systems"
+        },
+        {
+            "file-name": "8",
+            "paper-title": "Penetration Testing of Intrusion Detection and Prevention System in Low-Performance Embedded IoT Device"
+        },
+        {
+            "file-name": "9",
+            "paper-title": "Taxonomy of Cross-Domain Attacks on CyberManufacturing System"
+        },
+        {
+            "file-name": "10",
+            "paper-title": "Detecting cyber-physical attacks in CyberManufacturing systems with machine learning methods"
+        }
+    ]
+}
