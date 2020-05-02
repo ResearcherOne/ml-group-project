@@ -1,0 +1,337 @@
+[
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Merge: An Architecture for Interconnected Testbed Ecosystems"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Ryan Goodfellow"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "1"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   ", Lincoln Thurlow"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "1"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   ", and Srivatsan Ravi"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "1,2",
+   "1"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "University of Southern California, Information Sciences Institute"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "2"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "University of Southern California, Dept. of Computer Science"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Abstract"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "In  the  cybersecurity  research  community,  there  is",
+   "no one-size-fits-all solution for"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "merging"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "large num-",
+   "bers  of  heterogeneous  resources  and  experimenta-",
+   "tion capabilities from disparate specialized testbeds",
+   "into integrated experiments. The current landscape",
+   "for  cyber-experimentation  is  diverse,  encompass-",
+   "ing many fields including critical infrastructure, en-",
+   "terprise  IT,  cyber-physical  systems,  cellular  net-",
+   "works,  automotive  platforms,  IoT  and  industrial",
+   "control  systems.   Existing  federated  testbeds  are",
+   "constricted in design to predefined domains of ap-",
+   "plicability,  lacking  the  systematic  ability  to  inte-",
+   "grate the burgeoning number of heterogeneous de-",
+   "vices or tools that enable their effective use for ex-",
+   "perimentation. We have developed the Merge archi-",
+   "tecture to dynamically integrate disparate testbeds",
+   "in a logically centralized way that allows researchers",
+   "to  effectively  discover,  and  use  the  resources  and",
+   "capabilities provided the by evolving ecosystem of",
+   "distributed testbeds for the development of rigorous",
+   "and high-fidelity cybersecurity experiments."
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "1  Introduction"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "Cyberspace is now a distinct plane of existence for",
+   "almost all aspects of life.  The complexity, hetero-",
+   "geneity  and  interconnectivity  of  that  space  is  in-",
+   "creasing  rapidly.   Cloud  computing  has  given  rise",
+   "to  computer  clusters  the  size  of  sports  stadiums",
+   "that effectively keep tabs on the state of the world,",
+   "from the systems that hold confidential enterprise",
+   "information to our personal Dropbox data.  The In-",
+   "ternet of Things (IoT) movement seeks to saturate",
+   "our homes and public spaces with small yet highly",
+   "complex devices that are capable of observing the",
+   "most private aspects of our lives.  Our mobile de-",
+   "vices and the back-end systems they communicate",
+   "with know more about us than we do.  The most",
+   "critical  infrastructure  on  which  our  quality  of  life",
+   "depends is computer controlled,  from hospitals to",
+   "the power grid.",
+   "Each of these spaces is rapidly evolving, and the",
+   "complexity  of  the  computer  systems  within  each",
+   "space  is  expanding.   Moreover,  the  growing  inter-",
+   "connectivity between these spaces means that ex-",
+   "perimentally  evaluating  security  and  privacy  at  a"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "systems level"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "requires the integration of experimen-",
+   "tal  substrates  capable  of  accurately  representing",
+   "each technological domain.  The principle motiva-",
+   "tion of Merge is to be able to conduct this sort of",
+   "systems-level  cybersecurity  experimentation.   The",
+   "major  driving  factor  behind  the  architectural  de-",
+   "sign  intended  to  satisfy  that  motivation,  is  the",
+   "recognition that the massive complexity associated",
+   "with each technological domain is best handled by",
+   "sophisticated domain-specific testbeds.",
+   "Merge  is  designed  to  interconnect  testbeds  into",
+   "an"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "evolving"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "ecosystem, capable of supporting rigor-",
+   "ous system-level cybersecurity experimentation for",
+   "the"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "evolving"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "needs  of  the  cybersecurity  research",
+   "community.    We  summarize  the  contributions  of",
+   "Merge in the following list that binds architectural",
+   "elements to experimentation benefit.",
+   "(i)"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Constraint-based expression model"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   ":"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "de-",
+   "fine  experiments  with  semantics  that  directly",
+   "capture validity."
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "(ii)"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Discovery and realization services"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   ":"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "find",
+   "and  allocate  resources  that  fall  within  validity",
+   "region of a constraint-based experiment."
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "(iii)"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Materialization services"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   ":"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "orchestrates  the",
+   "provisioning  of  an  experiment  across  multiple",
+   "testbed sites."
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "(iv)"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Driver abstraction model"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   ":"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "incorporate new",
+   "types of devices dynamically."
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "(v)"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Resource commissioning model"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   ":"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "give  re-",
+   "source   providers   proactive   control   over   re-",
+   "sources and give researchers instant global vis-",
+   "ibility of the resource space."
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "The  primary  previous  work  in  this  space  -  de-",
+   "veloping infrastructure to interconnect testbeds for",
+   "integrated  experimentation,  is  GENI  [2].   Contri-",
+   "butions (i) and (ii) make significant advancements",
+   "in expressiveness and resource allocation strategies;",
+   "the design and implementation of (iii) is based on",
+   "modern fault-tolerance practices that are more re-",
+   "silient  and  self  healing  at  the  infrastructure  level;",
+   "1"
+  ]
+ },
+ {
+  "name": "Times",
+  "rowTexts": [
+   "arXiv:1810.08260v2  [cs.DC]  8 Nov 2018"
+  ]
+ }
+]

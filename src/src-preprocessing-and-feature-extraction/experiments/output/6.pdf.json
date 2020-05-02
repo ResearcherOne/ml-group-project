@@ -1,0 +1,192 @@
+[
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "SAVI Testbed: Control and Management of",
+   "Converged Virtual ICT Resources",
+   "Joon-Myung Kang, Hadi Bannazadeh, and Alberto Leon-Garcia",
+   "Department of Electrical and Computer Engineering",
+   "University of Toronto, Toronto, ON, Canada",
+   "Email:"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "{"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "joonmyung.kang, hadi.bannazadeh, alberto.leongarcia"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "}"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "@utoronto.ca"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "Abstract"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "—This paper introduces the SAVI testbed for control",
+   "and  management  of  converged virtual  ICT  resources.  The  SAVI",
+   "testbed  attempts  to  create  an  open  applications  marketplace",
+   "that  operates  on  converged  virtual  computing  and  networking",
+   "infrastructures   and   supports   experimentation   with   emerging",
+   "Future  Internet  protocols  and  applications.  In  this  paper  we",
+   "briefly  review  the  Smart  Applications  on  Virtual  Infrastructure",
+   "(SAVI)   network   and   the   Virtualized   Application   Networking",
+   "Infrastructure  (VANI)  which  are  the  basis  for  the  SAVI  testbed.",
+   "We then present the architecture and design of the SAVI testbed.",
+   "Finally, we report on the current status of development and share",
+   "our  experience  with  the  SAVI  testbed."
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "I.  I",
+   "NTRODUCTION",
+   "Many nations are investing in national-scale research pro-",
+   "grams focused on the Future Internet and applications [1]. They",
+   "have been addressing content-oriented paradigms, mobility",
+   "and ubiquitous access to networks, cloud-computing-centric",
+   "architectures, security, and experimental testbeds. The"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "Smart",
+   "Applications on Virtual Infrastructure (SAVI)"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "project (involving",
+   "nine universities and multiple industrial partners) has been es-",
+   "tablished with a focus on future application platforms designed",
+   "for applications enablement. A major obstacle to innovation in",
+   "network aspects of application platforms is the inability to test",
+   "and deploy new Internet protocols and applications at scale.",
+   "In the US, the Global Environment for Networking In-",
+   "frastructure (GENI) is a major effort to create a testbed by",
+   "advancing and federating different testbeds such as PlanetLab",
+   "and Emulab on top of a dedicated research network [2]. GENI",
+   "follows a slice-based architecture, and different testbeds will",
+   "be able to connect to each other through GENI wrappers. Other",
+   "related efforts include ProtoGENI [3] based at the University",
+   "of Utah and Future Internet Research for Sustainable Testbed",
+   "(FiRST) [4]. Recently, ExoGENI [5] has been proposed to link",
+   "GENI to two advances in virtual infrastructure services outside",
+   "of GENI: open cloud computing (OpenStack) and dynamic cir-",
+   "cuit providers, through their native Infrastructure-as-a-Service",
+   "(IaaS) interfaces, that provide links to other GENI tools and",
+   "resources. In Europe, Scalable and Adaptive Internet Solutions",
+   "(SAIL) [6] addresses design concepts and technologies for the",
+   "networks of the future and develops techniques to move from",
+   "today’s to future networks. BonFIRE [7] offers a multi-site",
+   "cloud testbed that supports large scale testing of applications,",
+   "services and systems over multiple, geographically distributed,",
+   "heterogeneous cloud testbeds. BonFIRE includes OpenNebula",
+   "based testbeds and non-OpenNebula based testbeds.",
+   "In this paper we present the SAVI Testbed (TB) that",
+   "enables experimentation in future applications platforms and",
+   "future Internet alternatives by controlling and managing con-",
+   "verged computing and network resources. SAVI investigates",
+   "multi-tier cloud computing where infrastructure includes core",
+   "massive datacenter cloud computing and additional comput-",
+   "ing resources at many smart edges. SAVI has developed a",
+   "smart-edge cluster that provides converged ICT resources in",
+   "support of computing, networking, and applications, and a",
+   "control and management framework to create virtual networks.",
+   "These virtual networks provide researchers with virtual nodes,",
+   "consisting of associated virtual resources, at different SAVI",
+   "Smart Edge sites that are interconnected with research network",
+   "connectivity to support experimentation at scale. SAVI nodes",
+   "incorporate open source software and hardware (OpenStack",
+   "[8], Openflow [9], NetFPGAs, and others as they become avail-",
+   "able). To enable experiments that require high performance,",
+   "SAVI provides a method to facilitate the programming of",
+   "FPGA resources. In this paper we present the current status",
+   "and share our experience in demonstrating SAVI capabilities",
+   "in a workshop setting.",
+   "The paper is organized as follows. Section II briefly reviews",
+   "the SAVI network and our previous work on testbed develop-",
+   "ment. Section III presents the SAVI system architecture and",
+   "a design for integrating ICT resources in the SAVI testbed.",
+   "In Section IV, we present our experience from a hands-on",
+   "workshop for the SAVI Edge Node. Finally, conclusions and",
+   "future work are presented in Section V.",
+   "II.  SAVI N",
+   "ETWORK AND",
+   "VANI O",
+   "VERVIEW"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "A.  SAVI Network"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "The objective of the SAVI project is to address the design",
+   "of future application platforms built on flexible, versatile and",
+   "evolvable infrastructure that can readily deploy, maintain, and",
+   "retire the large-scale, possibly short-lived, distributed applica-",
+   "tions that will be typical in the future applications marketplace.",
+   "An application platform brings together the infrastructure",
+   "(personal devices, wireless and wired access networks, Inter-",
+   "net, and computing clouds) and software resources required",
+   "to deliver applications. In a future setting, the end user",
+   "will typically use the application platform through a mobile",
+   "device that connects to a ubiquitous very-high-bandwidth,",
+   "integrated wireless/optical access network. The application",
+   "platform provides network connectivity to services that support",
+   "the application of interest. Most services will be supported by",
+   "massive-scale distant data centers located at sites of renewable",
+   "energy. Some services will require low latency (e.g. alarms in",
+   "smart grids, safety applications in transportation, monitoring",
+   "in remote health) or the processing of large volumes of local"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "664",
+   "978-3-901882-50-0",
+   "c"
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "©"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "2013 IFIP"
+  ]
+ }
+]

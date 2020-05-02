@@ -1,0 +1,208 @@
+[
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "J Intell Manuf (2019) 30:1111–1123",
+   "https://doi.org/10.1007/s10845-017-1315-5"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Detecting cyber-physical attacks in CyberManufacturing systems",
+   "with machine learning methods",
+   "Mingtao Wu",
+   "1"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "·"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Zhengyi Song",
+   "1"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "·"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Young B. Moon",
+   "1"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Received: 1 December 2016 / Accepted: 17 February 2017 / Published online: 23 February 2017",
+   "© Springer Science+Business Media New York 2017"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Abstract"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "CyberManufacturing system (CMS) is a vision",
+   "for future manufacturing systems. The concept delineates",
+   "a vision of advanced manufacturing system integrated with",
+   "technologies such as Internet of Things, Cloud Computing,",
+   "Sensors Network and Machine Learning. As a result, cyber-",
+   "attacks such as Stuxnet attack will increase along with grow-",
+   "ing simultaneous connectivity. Now, cyber-physical attacks",
+   "are new and unique risks to CMSs and modern cyber security",
+   "countermeasure is not enough. To learn this new vulnera-",
+   "bility, the cyber-physical attacks is defined via a taxonomy",
+   "under the vision of CMS. Machine learning on physical data",
+   "is studied for detecting cyber-physical attacks. Two examples",
+   "were developed with simulation and experiments: 3D print-",
+   "ing malicious attack and CNC milling machine malicious",
+   "attack. By implementing machine learning methods in phys-",
+   "ical data, the anomaly detection algorithm reached 96.1%",
+   "accuracy in detecting cyber-physical attacks in 3D printing",
+   "process; random forest algorithm reached on average 91.1%",
+   "accuracy in detecting cyber-physical attacks in CNC milling",
+   "process."
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Keywords"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "CyberManufacturing systems"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "·"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Security"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "·"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Additive manufacturing"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "·"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Machine learning"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Introduction"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "CyberManufacturing system (CMS) is a blueprint for future",
+   "manufacturing systems where physical components are fully",
+   "integrated with computational processes in a connected envi-"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "B"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Young B. Moon",
+   "ybmoon@syr.edu",
+   "1",
+   "Department of Mechanical and Aerospace Engineering,",
+   "Syracuse University, Syracuse, USA",
+   "ronment. The CMS is expected to yield benefits in cost,",
+   "efficiency, and sustainability, by taking advantage of tech-",
+   "nologies such as Internet of Things, Cloud Computing,",
+   "Fog Computing, Cyber-Physical System, Service-Oriented",
+   "Technologies, Modeling and Simulation, Embedded Sys-",
+   "tems, Sensor Networks, Wireless Communications, Machine",
+   "Learning, and Advanced Manufacturing Processes (",
+   "Song and",
+   "Moon 2016",
+   "; Ren et al. 2015",
+   "). Similar concepts and visions",
+   "have been developed in different scopes and under different",
+   "names such as “Industrie 4.0” by Germany, “Monozukuri”",
+   "by Japan, “Factories of the Future” by EU, and “Industrial",
+   "Internet” by GE, thus confirming the universal recognition",
+   "of the importance of the CMS vision.",
+   "Particularly the openness of the Internet enhances man-",
+   "ufacturing activities with additional capabilities in commu-",
+   "nication, information resources, storage, and computation.",
+   "A result can be a manufacturing system possessing intel-",
+   "ligent capabilities such as self-awareness, self-prediction,",
+   "self-optimization, and self-configuration abilities (",
+   "Ren et al.",
+   "2015",
+   "). However, the very openness also enlarges the vul-",
+   "nerability, especially the attack surface for Manufacturing",
+   "Systems as analyzed by following five layers.",
+   "In CMS, the system can be conceived by five layers as",
+   "defined by",
+   "Song and Moon",
+   "(2016): User Layer, Application",
+   "Interface Layer, Core Service Layer, Integrated Connection",
+   "Layer and Physical Provider Layer. Each layer is distributed",
+   "globally and connected to upper and lower layers via the",
+   "Internet. Therefore, the attack surface of the whole CMS",
+   "system is enlarged by the additional layers and Internet con-",
+   "nections comparing to the traditional factories. For example,",
+   "a malicious input could come from integrated connection",
+   "layer as a malicious real-time controlling command that",
+   "changes production schedules. Another example is when",
+   "malicious input could orient from a person in the middle",
+   "attack between customer layer and application interface layer"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "123"
+  ]
+ }
+]

@@ -1,0 +1,310 @@
+[
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Penetration Testing of ",
+   "Intrusion Detection and ",
+   "Prevention System in Low-Performance Embedded ",
+   "IoT Device ",
+   " ",
+   "Tomas Zitta  "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Czech Technical University in Prague "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Faculty of Electrical Engineering  "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Prague, Czech Republic ",
+   "zittatom@fel.cvut.cz ",
+   "Martina Matejkova "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Czech Technical University in Prague "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Faculty of Electrical Engineering  "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Prague, Czech Republic ",
+   "matejm24@fel.cvut.cz ",
+   "Jan Moravec "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Czech Technical University in Prague "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Faculty of Electrical Engineering  "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Prague, Czech Republic ",
+   "moravj27@fel.cvut.cz ",
+   "Marek Neruda "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Czech Technical University in Prague "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Faculty of Electrical Engineering  "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Prague, Czech Republic ",
+   "marek.neruda@fel.cvut.cz ",
+   "Matej Jehlicka "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Czech Technical University in Prague "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Faculty of Electrical Engineering  "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Prague, Czech Republic ",
+   "jehlimat@fel.cvut.cz  ",
+   "Lukas Vojtech "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Czech Technical University in Prague "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Faculty of Electrical Engineering  "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Prague, Czech Republic ",
+   "lukas.vojtech@fel.cvut.cz ",
+   "Lukas Hach "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Czech Technical University in Prague "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Faculty of Electrical Engineering  "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Prague, Czech Republic ",
+   "hachluka@fel.cvut.cz",
+   "  ",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "Abstract"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "—The   penetration   testing   method   of   provided   ",
+   "security  protection  by  IDS/IPS  (Intrusion  Detection  System  /  ",
+   "Intrusion   Prevention   System)   tool   Suricata   in   the   low-",
+   "performance  embedded  IoT  device  is  presented.  Penetration  ",
+   "testing tools are presented with ",
+   "emphasis on software tools, such ",
+   "as NMAP and Metasploit. The used testing method is described ",
+   "in  deep.  IDS/IPS  tool  Suricata  is  implemented  in  embedded  ",
+   "platform Raspberry Pi 3. Main contribution is the implemented ",
+   "testing  method  for  Suricata  IPS  that  can  be  used  in  other  ",
+   "applications of security rules of embedded IoT devices."
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   " ",
+   "Keywords— Internet of Things, ",
+   "Intrusion detection, Intrusion ",
+   "prevention, Software testing "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "I."
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "I",
+   "NTRODUCTION",
+   " ",
+   "  ",
+   "Devices  for  the  Internet  of  Things  (IoT)  are  deployed  in  ",
+   "households,  factories  and  cities.  Devices  such  as  fridges,  ",
+   "thermometers and various sensors and actuators usually do not ",
+   "contain  protection  software.  These  devices  can  be  protected  ",
+   "by network Intrusion Detection System / Intrusion Prevention ",
+   "System (IDS/IPS) which is a defense system whose task is to ",
+   "monitor  network  traffic.  IDS  tools  only  write  to  the  log  file  ",
+   "when the attack is detected. IPS can block the threat by packet ",
+   "jams  or  blocking  the  connection.  IPS  provides  protection  of  ",
+   "devices not only in the IoT against takeover attempts, but also ",
+   "against malicious use [1].  ",
+   "IDS/IPS  tools  can  be  divided  to  anomaly-based  and  ",
+   "signature-based.   Anomaly-based   tools   compare   the   data   ",
+   "deviations   and   behavior   of   network   traffic   against   the   ",
+   "statistically normal network state or profile [1]. The advantage ",
+   "of  this  approach  is  the  ability  to  detect  previously  unknown  ",
+   "attacks. Signature-based tools detect and distinguish between ",
+   "common  system  states  and  databases  of  known  traces  and  ",
+   "patterns  suggesting  a  penetration  attempt.  The  advantage  of  ",
+   "signature-based  detection  is  a  low  error  rate,  but  it  cannot  ",
+   "detect an undefined type of attack. Additionally, systems can ",
+   "be classified as Host Based IDS HIDS (Host Based IDS) and ",
+   "Network  Based  IDS  (NIDS)  [2].  HIDS  is  running  on  one  ",
+   "device  and  provides  protection  for  a  single  machine.  It  ",
+   "monitors not only inbound and outbound traffic, but also the ",
+   "whole  system  (kernel  and  system  behavior).  NIDS  monitors  ",
+   "network  traffic,  most  often  operated  on  a  perimeter  network  ",
+   "[3].  Each  IDS/IPS  system  generally  consists  of  a  sensor,  a  ",
+   "configuration   database,   a   known   attack   database,   and   a   ",
+   "module that performs an action. The most common network ",
+   "attacks  are  port  scanning,  specific  packet  response  testing,  ",
+   "DNS  spoofing,  eavesdropping,  unauthorized  connections,  or  ",
+   "communication with non-standard IP addresses. Additionally, ",
+   "bugs  in  specific  application  protocols,  various  DOS  attacks,  ",
+   "identity falsifications, and more [2]. It is important to test IPS ",
+   "against network attacks and thereby verify its protection. The ",
+   "types of network attacks are described in [4]. It also presents ",
+   "description of IPS types and their location and new approaches ",
+   "and  techniques  used  in  IPS  tools.  Authors  in  [5]  deals  with  ",
+   "web-based  interfaces  testing,  system  testing,  it  describes  ",
+   "cryptographic issues due to low message entropy, which are ",
+   "sent between the devices. An overview of different intrusion ",
+   "detection  systems  and  comparison  of  functions  of  Snort,  ",
+   "Suricata and Bro IDS is presented in [1]. The performance of ",
+   "the  three  IDS  under  different  traffic  rates  and  attacks  is  ",
+   "presented in [6]. Authors in [7] describe implementation with ",
+   "tool Basic Analysis and Security Engine (BASE). BASE is a ",
+   "web    interface    written    in    PHP    which    provides    alert    ",
+   "management  and  analysis  engine  for  detected  incidents.  It  ",
+   "supports  IDS/IPS  as  well  as  network  components  such  as  ",
+   "routers and firewalls. ",
+   "  ",
+   "Main  contribution  of  the  paper  is  the  presented  testing  ",
+   "method  for  Suricata  IPS  and  the  comparison  of  its  response  ",
+   "implemented on the embedded platform to various tools and ",
+   "types of network attacks. The rest of the paper is organized as ",
+   "follows: The section II deals with testing of IDS/IPS, section ",
+   "III describes the penetration testing of Suricata IPS. Results of ",
+   "penetration  testing  are  presented  in  chapter  IV.  Conclusions  ",
+   "are presented in section V. ",
+   "This paper is supported by the grants no. SGS18/183/OHK3/3T/13 and by ",
+   "the grant in TACR ZETA program TJ01000182. "
+  ]
+ }
+]

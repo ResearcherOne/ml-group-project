@@ -1,0 +1,168 @@
+[
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Available online at ",
+   "www.sciencedirect.com"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "1877-0509 "
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "©"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   " 2017 The Authors. Published by Elsevier B.V.",
+   "Peer-review under responsibility of the scientific committee of the Complex Adaptive Systems Conference with Theme: ",
+   " ",
+   " ",
+   "Engineering Cyber Physical Systems.",
+   "10.1016/j.procs.2017.09.050",
+   "ScienceDirect"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "Procedia Computer Science 114 (2017)",
+   " 367–374"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "10.1016/j.procs.2017.09.050",
+   "1877-0509"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "Available online at ",
+   "www.sciencedirect.com"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "ScienceDirect"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Procedia Computer Science 00 (2017) 000–000 ",
+   "w",
+   "ww.elsevier.com/locate/procedia ",
+   "1877-0509 © 2017 The Authors. Published by Elsevier B.V. ",
+   "Peer-review under responsibility of the ",
+   "scientific committee of the Complex Adaptive Systems Conference with Theme: ",
+   "Engineering Cyber Physical Systems.",
+   " ",
+   "Complex Adaptive Systems Conference with Theme:",
+   " Engineering Cyber Physical Systems, CAS ",
+   "October 30 – November 1, 2017, Chicago, Illinois, USA  ",
+   "Taxonomy of Cross-Domain A",
+   "ttacks on CyberManufacturing ",
+   "System ",
+   "Mingtao Wu, Young B. Moon",
+   "*",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "Syracuse University, 263 Link Hall, Departm",
+   "ent of Mechanical and Aerospace Engineerin",
+   "g, Syracuse University, Syracuse NY 13244,",
+   " USA "
+  ]
+ },
+ {
+  "name": "g_d0_f8",
+  "rowTexts": [
+   "Abstract "
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "CyberManufacturing system (CMS) is a con",
+   "cept for next generation manufacturing sy",
+   "stem where manufacturing components are ",
+   "seamlessly integrated through technologies su",
+   "ch as the internet of things, cloud com",
+   "puting, sensors network, machine learning, ",
+   "and ",
+   "new manufacturing processes. A key to realizing the CMS is its ability to handle cyber-attacks. For example, infill malicious d",
+   "efects ",
+   "can be created by cyber-attacks in additive manufacturing processes, resulting in changes in yield load and strain at failure a",
+   "s well ",
+   "as natural frequency. Cyber-attacks on CMS are not just limited to",
+   " attacks on its computing sphe",
+   "re. Cross-domain attacks over b",
+   "oth ",
+   "the  physical  and  the  computing  spheres  become  critical.  A  taxonom",
+   "y  has  been  developed  to  specify  the  nature  of  the  attacks,  ",
+   "particularly when they are cross-domain. The taxonomy can help s",
+   "ecurity professionals identify and detect cross-domain attacks ",
+   "in CMS. The taxonomy has been constructed in",
+   " four dimensions: attack vector, attack im",
+   "pact, attack ta",
+   "rget, and attack consequen",
+   "ce. ",
+   "To illustrate how the taxonomy can be utiliz",
+   "ed in detecting cross-domain attacks on CM",
+   "S, infill malicious attacks on 3D printin",
+   "g ",
+   "processes are used as an example. ",
+   " ",
+   "© 2017 The Authors. Published by Elsevier B.V. ",
+   "Peer-review under responsibility of the ",
+   "scientific committee of the Complex Adaptive Systems Conference with Theme: ",
+   "Engineering Cyber Physical Systems. "
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "Keywords:"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   " Taxonomy; CyberManufacturing System; cross-domain attacks. ",
+   " ",
+   " ",
+   " ",
+   "*",
+   " Corresponding author. Tel.: +1-315-443-4366. "
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "E-mail address:"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   " ",
+   "ybmoon@syr.edu",
+   " ",
+   " "
+  ]
+ }
+]

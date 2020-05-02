@@ -1,0 +1,324 @@
+[
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "GENI: A federated testbed for innovative network",
+   "experiments"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "q"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Mark Berman",
+   "a",
+   ","
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "⇑"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   ", Jeffrey S. Chase",
+   "b",
+   ", Lawrence Landweber",
+   "c",
+   ", Akihiro Nakao",
+   "d",
+   ", Max Ott",
+   "e",
+   ",",
+   "Dipankar Raychaudhuri",
+   "f",
+   ", Robert Ricci",
+   "g",
+   ", Ivan Seskar",
+   "f",
+   "a"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "GENI Project Office, Raytheon BBN Technologies, 10 Moulton Street, Cambridge, MA 02138-1119, USA"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "b"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "Department of Computer Science, Duke University, Durham, NC 27708-0129, USA"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "c"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "GENI Project Office and Computer Science Department, University of Wisconsin, 1210 West Dayton Street, Madison, WI 53706, USA"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "d"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo 153-8904, Japan"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "e"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "NICTA, Australian Technology Park, Level 5, 13 Garden Street, Eveleigh, NSW 2015, Australia"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "f"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "Wireless Information Network Laboratory, Rutgers University, 671 Route 1 South, North Brunswick, NJ 08902-3390, USA"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "g"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "School of Computing, University of Utah, 50 South Central Campus Drive, Room 3190, Salt Lake City, UT 84112, USA"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "article  info"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "Article history:"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Received 5 July 2012",
+   "Received in revised form 22 November 2013",
+   "Accepted 20 December 2013",
+   "Available online 3 January 2014"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "Keywords:"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "GENI",
+   "Future Internet",
+   "Next generation networking",
+   "Future Internet testbeds",
+   "Distributed cloud computing"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   "abstract"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "GENI, the Global Environment for Networking Innovation, is a distributed virtual labora-",
+   "tory for transformative, at-scale experiments in network science, services, and security.",
+   "Designed in response to concerns over Internet ossification, GENI is enabling a wide variety",
+   "of experiments in a range of areas, including clean-slate networking, protocol design and",
+   "evaluation, distributed service offerings, social network integration, content management,",
+   "and in-network service deployment. Recently, GENI has been leading an effort to explore",
+   "the potential of its underlying technologies, SDN and GENI racks, in support of university",
+   "campus network management and applications. With the concurrent deployment of these",
+   "technologies on regional and national R&E backbones, this will result in a revolutionary",
+   "new national-scale distributed architecture, bringing to the entire network the shared, dee-",
+   "ply programmable environment that the cloud has brought to the datacenter. This deeply",
+   "programmable environment will support the GENI research mission and as well as",
+   "enabling research in a wide variety of application areas."
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Ó"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "2014 Elsevier B.V. All rights reserved."
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "1. Introduction/purpose"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "GENI, the Global Environment for Networking Innova-",
+   "tion, is a distributed virtual laboratory sponsored by the",
+   "U.S. National Science Foundation (NSF) for the develop-",
+   "ment, deployment, and validation of transformative,",
+   "at-scale concepts in network science, services, and secu-",
+   "rity. The key motivation for GENI is addressing widespread",
+   "concerns about"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "Internet ossification"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   ", the phenomenon",
+   "whereby entrenched interests and infrastructure severely",
+   "limit the potential for innovation in the global, public",
+   "Internet",
+   "[1,2]",
+   ". In the middle of the first decade of the",
+   "2000s, virtualization began to emerge as a promising ap-",
+   "proach to enabling a large class of interesting experiments",
+   "to run simultaneously at reasonable cost. Indeed",
+   "[1]",
+   ", pro-",
+   "poses the virtual testbed concept, and argues that it is well",
+   "suited not only to testing, but also to deployment of new",
+   "network architectures.",
+   "Today’s GENI relies heavily on this basic concept, com-",
+   "bining heterogeneous resource types, each virtualized",
+   "along one or more suitable dimensions, to produce a single",
+   "platform for network science researchers. GENI provides a",
+   "venue that permits a growing number of experiments to",
+   "move beyond simulation and into emulation and realistic",
+   "1389-1286/$ - see front matter"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Ó"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "2014 Elsevier B.V. All rights reserved.",
+   "http://dx.doi.org/10.1016/j.bjp.2013.12.037"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "q"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "GENI is funded by the U.S. National Science Foundation. Any opinions,",
+   "findings, conclusions or recommendations expressed in this material are",
+   "the authors’ and do not necessarily reflect the views of the National",
+   "Science Foundation."
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "⇑"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Corresponding author. Tel.: +1 617 873 3675."
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "E-mail address:"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "mberman@bbn.com",
+   "(M. Berman).",
+   "Computer Networks 61 (2014) 5–23"
+  ]
+ },
+ {
+  "name": "g_d0_f8",
+  "rowTexts": [
+   "Contents lists available at",
+   "ScienceDirect"
+  ]
+ },
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "Computer Networks"
+  ]
+ },
+ {
+  "name": "g_d0_f8",
+  "rowTexts": [
+   "journal homepage: www.elsevier.com/locate/comnet"
+  ]
+ }
+]

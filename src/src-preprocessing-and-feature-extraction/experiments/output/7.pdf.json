@@ -1,0 +1,1245 @@
+[
+ {
+  "name": "g_d0_f1",
+  "rowTexts": [
+   "ScienceDirect"
+  ]
+ },
+ {
+  "name": "g_d0_f2",
+  "rowTexts": [
+   "Available online at ",
+   "www.sciencedirect.com"
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "Available online at ",
+   "www.sciencedirect.com"
+  ]
+ },
+ {
+  "name": "g_d0_f4",
+  "rowTexts": [
+   "ScienceDirect"
+  ]
+ },
+ {
+  "name": "g_d0_f5",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Procedia Manufacturing 00 (2017) 000–000 ",
+   " ",
+   " www.elsevier.com/locate/procedia ",
+   "* Paulo Afonso. Tel.: +351 253 510 761; fax: +351 253 604 741  "
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "E-mail address:"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   " psafonso@dps.uminho.pt ",
+   "2351-9789 © 2017 The Authors. Published by Elsevier B.V. ",
+   "Peer-review under responsibility of the scie",
+   "ntific committee of the Manufacturing Engi",
+   "neering Society Inte",
+   "rnational Conference ",
+   "2017.",
+   " ",
+   "Manufacturing Engineering Society Intern",
+   "ational Conference 2017, MESIC 2017, 28-30 June ",
+   "2017, Vigo (Pontevedra), Spain ",
+   "Costing models for capacity optimiza",
+   "tion in Industry 4.0: Trade-off ",
+   "between used capacity an",
+   "d operational efficiency ",
+   "A. Santana",
+   "a",
+   ", P. Afonso",
+   "a,*",
+   ", A. Zanin",
+   "b",
+   ", R. Wernke",
+   "b "
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "a",
+   " University of Minho, 4800-058 Guimarães, Portugal ",
+   "b",
+   "Unochapecó, 89809-000 Chapecó, SC, Brazil  "
+  ]
+ },
+ {
+  "name": "g_d0_f8",
+  "rowTexts": [
+   "Abstract "
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "Under  the  concept  of  \"Industry  4.0\",  production  proce",
+   "sses  will  be  pushed  to  be  increasingly  interconnected,  ",
+   "information based on a real time basis an",
+   "d, necessarily, much more efficient. In",
+   " this context, capacity optimization ",
+   "goes beyond the traditional aim of capacity maximization, contributing also for organization’s profitability and value. ",
+   "Indeed,  lean  management  and  continuous  improvement  ",
+   "approaches  suggest  capacity  optimization  instead  of  ",
+   "maximization.  The  study  of  capacity  optimization  and  costing  models  is  an  important  research  topic  that  deserves  ",
+   "contributions from both the practical and theoretical perspectives. This paper presents and discusses a mathematical ",
+   "model for capacity management based on different cos",
+   "ting models (ABC and TDABC). A generic model has been ",
+   "developed and it was used to analyze idle capacity and to ",
+   "design strategies towards the maximization of organization’s ",
+   "value.  The  trade-off  capacity  maximiza",
+   "tion  vs  operational  efficiency  is  highlighted  and  it  is  shown  that  capacity  ",
+   "optimization might hide operational inefficiency.  ",
+   "© 2017 The Authors. Published by Elsevier B.V. ",
+   "Peer-review under responsibility of the scie",
+   "ntific committee of the Manufacturing Engi",
+   "neering Society International Conference ",
+   "2017. "
+  ]
+ },
+ {
+  "name": "g_d0_f7",
+  "rowTexts": [
+   "Keywords:"
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   " Cost Models; ABC; TDABC; Capacity Manage",
+   "ment; Idle Capacity; Operational Efficiency "
+  ]
+ },
+ {
+  "name": "g_d0_f8",
+  "rowTexts": [
+   "1.",
+   "Introduction "
+  ]
+ },
+ {
+  "name": "g_d0_f6",
+  "rowTexts": [
+   "The cost of idle capacity is a fundamental information ",
+   "for companies and their management of extreme importance ",
+   "in modern production systems. In general, it is defined as ",
+   "unused capacity or production potential and can be measured ",
+   "in  several  ways:  tons  of  production,  available  hours  of  ",
+   "manufacturing,  etc.  The  mana",
+   "gement  of  the  idle  capacity  "
+  ]
+ },
+ {
+  "name": "g_d0_f9",
+  "rowTexts": [
+   "Procedia Manufacturing 26 (2018)",
+   " 1116–1127"
+  ]
+ },
+ {
+  "name": "g_d0_f10",
+  "rowTexts": [
+   "2351-9789 "
+  ]
+ },
+ {
+  "name": "g_d0_f9",
+  "rowTexts": [
+   "©"
+  ]
+ },
+ {
+  "name": "g_d0_f10",
+  "rowTexts": [
+   " 2018 The Authors. Published by Elsevier B.V.",
+   "Peer-review under responsibility of the scientific committee of the 46th SME North American Manufacturing Research Conference.",
+   "10.1016/j.promfg.2018.07.148",
+   "10.1016/j.promfg.2018.07.148",
+   "2351-9789"
+  ]
+ },
+ {
+  "name": "g_d0_f9",
+  "rowTexts": [
+   "© 2018 The Authors. Published by Elsevier B.V."
+  ]
+ },
+ {
+  "name": "g_d0_f11",
+  "rowTexts": [
+   "Peer-review under responsibility of the scientific committee of the 46th SME North American Manufacturing Research Conference."
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "Available online at ",
+   "www.sciencedirect.com",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f13",
+  "rowTexts": [
+   "ScienceDirect",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "Procedia Manufacturing",
+   " ",
+   "00 (20",
+   "1",
+   "8",
+   ") 000"
+  ]
+ },
+ {
+  "name": "g_d0_f15",
+  "rowTexts": [
+   "–"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "000",
+   " ",
+   " ",
+   " ",
+   "www.elsevier.com/locate/procedia",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "2351",
+   "-",
+   "9789",
+   " ",
+   "© 2018 The Authors. Published by Elsevier B.V.",
+   " ",
+   "Peer",
+   "-",
+   "review under responsibility of ",
+   "the scientific committee of ",
+   "NAMRI/SME",
+   "."
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "46th SME North American Manufacturing Research Conference, NAMRC 46, Texas, USA",
+   " ",
+   "A ",
+   "s",
+   "imulation",
+   "-",
+   "b",
+   "ased ",
+   "p",
+   "latform for ",
+   "a",
+   "ssessing the ",
+   "i",
+   "mpact of ",
+   "c",
+   "yber",
+   "-",
+   "t",
+   "hreats on ",
+   "s",
+   "mart ",
+   "m",
+   "anufacturing ",
+   "s",
+   "ystems ",
+   " ",
+   "Alejandro Bracho",
+   "a",
+   ", Can Saygin",
+   "a",
+   ",b,",
+   "*, HungDa Wan",
+   "a",
+   ",b",
+   ", ",
+   "Yooneun Lee",
+   " ",
+   "a",
+   ",b",
+   ", ",
+   "Alireza Zarreh",
+   "a",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   "a",
+   " ",
+   "De",
+   "partment of Mechanical Engineering, University of Texas at San Antonio, San Antonio, Texas 78249, USA",
+   " ",
+   "b",
+   "Center for Advanced Man",
+   "ufacturing and Lean Systems, ",
+   "University of",
+   " ",
+   "Texas at San Antonio, San Antonio, Texas 78249, USA",
+   " ",
+   " ",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "* Corresponding author. Tel.: ",
+   "+1",
+   "-",
+   "210",
+   "-",
+   "458",
+   "-",
+   "5194",
+   "; fax: ",
+   "+1",
+   "-",
+   "210",
+   "-",
+   "458",
+   "-",
+   "6504",
+   ".",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   "E",
+   "-",
+   "mail address:"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "can.saygin@utsa.edu",
+   " ",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f16",
+  "rowTexts": [
+   "Abstract",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "Smart manufacturing systems can be considered within the Cyber",
+   "-",
+   "Physical Systems (CPS) ",
+   "domain, where currently, there is a major ",
+   "concern  regarding  cybersecurity.  This  paper  introduces  a  simulat",
+   "ion",
+   "-",
+   "based  model",
+   " ",
+   "to  assess  the  repercussions  on  manufacturing  "
+  ]
+ },
+ {
+  "name": "g_d0_f15",
+  "rowTexts": [
+   "systems’ performance under the potential presence of cyber"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "-",
+   "threats. The applicability of ",
+   "the assessment model ha",
+   "s",
+   " ",
+   "been validated ",
+   "through the implementation of a case study for the manufacturing sector. Different scenarios have been developed in order to ",
+   "apply ",
+   "an experimental design analysis, where several factors on the model will permit to el",
+   "ucidate the combination of controllable ",
+   "defense",
+   " ",
+   "policies  and  uncontrollable  security",
+   "-",
+   "based  parameters  that  will  ",
+   "reduce",
+   " ",
+   "the ",
+   "negative "
+  ]
+ },
+ {
+  "name": "g_d0_f15",
+  "rowTexts": [
+   "impact  on  the  manufacturing  system’s  "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "performance.  Results  have  revealed  that  the  impact  of  cyber",
+   "-",
+   "attacks  on  manufacturing  ph",
+   "ysical  oper",
+   "ations  can  be  reduced  by",
+   " ",
+   "different ",
+   "defense policies ",
+   "such as increasing capacity of resources",
+   " ",
+   "at the shop floor",
+   " ",
+   "and applying more conservative reorder policies ",
+   "for certain situations",
+   ". Levels among recovery times did",
+   " ",
+   "not ",
+   "yield",
+   " ",
+   "the same magnitude o",
+   "f effect.",
+   " ",
+   "As far as the uncontrollable factors ",
+   "for companies are concerned, it was revealed that the mean time between attacks and the number of potential threat sources ha",
+   "ve a ",
+   "significant influence on the per",
+   "formance metrics of the system.",
+   " ",
+   " ",
+   "©",
+   " ",
+   "201",
+   "8",
+   " ",
+   "The Authors. Published by Elsevier B.V.",
+   " ",
+   "Peer",
+   "-",
+   "review under responsibility of ",
+   "the scientific committee of ",
+   "NAMRI/SME",
+   ".",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   " ",
+   "Keywords:"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "Simulation",
+   "; Manufacturing",
+   "; Cybersecurity; Cyber",
+   "-Attacks; Defense Policies",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f16",
+  "rowTexts": [
+   "1."
+  ]
+ },
+ {
+  "name": "g_d0_f17",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f16",
+  "rowTexts": [
+   "Introduction",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "The  concept  of  Cyber",
+   "-Physical  Systems  (CPS)  is  ",
+   "applied in manufacturing systems that incorporate the ",
+   "dynam",
+   "ics  and  characteristics  of",
+   "  tangible  processes  ",
+   "with    commands    originated    from    the    computer    ",
+   "software and comm",
+   "unication platforms [1",
+   "-3]. Some of ",
+   "the important characteristics of CPS, compared to the "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   "Available online at ",
+   "www.sciencedirect.com",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f13",
+  "rowTexts": [
+   "ScienceDirect",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "Procedia Manufacturing",
+   " ",
+   "00 (20",
+   "1",
+   "8",
+   ") 000"
+  ]
+ },
+ {
+  "name": "g_d0_f15",
+  "rowTexts": [
+   "–"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "000",
+   " ",
+   " ",
+   " ",
+   "www.elsevier.com/locate/procedia",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "2351",
+   "-",
+   "9789",
+   " ",
+   "© 2018 The Authors. Published by Elsevier B.V.",
+   " ",
+   "Peer",
+   "-",
+   "review under responsibility of ",
+   "the scientific committee of ",
+   "NAMRI/SME",
+   "."
+  ]
+ },
+ {
+  "name": "g_d0_f3",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "46th SME North American Manufacturing Research Conference, NAMRC 46, Texas, USA",
+   " ",
+   "A simulation",
+   "-based ",
+   "platform for ",
+   "assessing the ",
+   "impact of ",
+   "cyber",
+   "-",
+   "threats on ",
+   "smart ",
+   "manufacturing ",
+   "systems ",
+   " ",
+   "Alejandro Bracho",
+   "a",
+   ", Can Saygin",
+   "a,b,",
+   "*, HungDa Wan",
+   "a,b",
+   ", Yooneun Lee",
+   " a,b",
+   ", Alireza Zarreh",
+   "a",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   "a",
+   " De",
+   "partment of Mechanical Engineering, University of Texas at San Antonio, San Antonio, Texas 78249, USA",
+   " ",
+   "b",
+   "Center for Advanced Man",
+   "ufacturing and Lean Systems, ",
+   "University of",
+   " Texas at San Antonio, San Antonio, Texas 78249, USA",
+   "  ",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "* Corresponding author. Tel.: ",
+   "+1",
+   "-210",
+   "-458",
+   "-5194; fax: ",
+   "+1",
+   "-210",
+   "-458",
+   "-6504",
+   ". "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   "E-mail address:"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " can.saygin@utsa.edu",
+   " ",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f16",
+  "rowTexts": [
+   "Abstract",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "Smart manufacturing systems can be considered within the Cyber",
+   "-Physical Systems (CPS) ",
+   "domain, where currently, there is a major ",
+   "concern  regarding  cybersecurity.  This  paper  introduces  a  simulat",
+   "ion",
+   "-based  model",
+   "  to  assess  the  repercussions  on  manufacturing  "
+  ]
+ },
+ {
+  "name": "g_d0_f15",
+  "rowTexts": [
+   "systems’ performance under the potential presence of cyber"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "-threats. The applicability of ",
+   "the assessment model ha",
+   "s been validated ",
+   "through the implementation of a case study for the manufacturing sector. Different scenarios have been developed in order to ",
+   "apply ",
+   "an experimental design analysis, where several factors on the model will permit to el",
+   "ucidate the combination of controllable ",
+   "defense",
+   " ",
+   "policies  and  uncontrollable  security",
+   "-based  parameters  that  will  ",
+   "reduce",
+   "  the ",
+   "negative "
+  ]
+ },
+ {
+  "name": "g_d0_f15",
+  "rowTexts": [
+   "impact  on  the  manufacturing  system’s  "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "performance.  Results  have  revealed  that  the  impact  of  cyber",
+   "-attacks  on  manufacturing  ph",
+   "ysical  oper",
+   "ations  can  be  reduced  by",
+   " ",
+   "different ",
+   "defense policies ",
+   "such as increasing capacity of resources",
+   " at the shop floor",
+   " and applying more conservative reorder policies ",
+   "for certain situations",
+   ". Levels among recovery times did",
+   " not ",
+   "yield",
+   " the same magnitude o",
+   "f effect.",
+   " As far as the uncontrollable factors ",
+   "for companies are concerned, it was revealed that the mean time between attacks and the number of potential threat sources ha",
+   "ve a ",
+   "significant influence on the per",
+   "formance metrics of the system.",
+   " ",
+   " ",
+   "©",
+   " ",
+   "201",
+   "8",
+   " ",
+   "The Authors. Published by Elsevier B.V.",
+   " ",
+   "Peer",
+   "-",
+   "review under responsibility of ",
+   "the scientific committee of ",
+   "NAMRI/SME",
+   ".",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   " ",
+   "Keywords:"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "Simulation",
+   ";",
+   " ",
+   "Manufacturing",
+   ";",
+   " ",
+   "Cybersecurity; Cyber",
+   "-",
+   "Attacks; Defense Policies",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f16",
+  "rowTexts": [
+   "1."
+  ]
+ },
+ {
+  "name": "g_d0_f17",
+  "rowTexts": [
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f16",
+  "rowTexts": [
+   "Introduction",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   "The  concept  of  Cyber",
+   "-",
+   "Physical  Systems  (CPS)  is  ",
+   "applied in manufacturing systems that incorporate the ",
+   "dynam",
+   "ics  and  characteristics  of",
+   " ",
+   "tangible  processes  ",
+   "with    commands    originated    from    the    computer    ",
+   "software and comm",
+   "unication platforms [1",
+   "-",
+   "3]. Some of ",
+   "the important characteristics of CPS, compared to the ",
+   "2"
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   " ",
+   "Author name ",
+   "/ ",
+   "Procedia Manufacturing",
+   " ",
+   "00 (",
+   "201",
+   "8",
+   ") 000"
+  ]
+ },
+ {
+  "name": "g_d0_f18",
+  "rowTexts": [
+   "–"
+  ]
+ },
+ {
+  "name": "g_d0_f12",
+  "rowTexts": [
+   "000"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "traditional       manufacturing       systems,       include       ",
+   "embedded/real",
+   "-",
+   "time systems, wireless sensor network ",
+   "(WSN), and other software platforms [2]. Since these ",
+   "types   of   systems   pr",
+   "ovide   tools   for   the   analysis,   ",
+   "coordination    and    monitoring    of    the    integrated    ",
+   "architecture,  it  should  be  emphasized  the  importance  ",
+   "of ",
+   "highly ",
+   "reliable   operations",
+   " ",
+   "for   its   automated   ",
+   "processes",
+   ".   In   CPSs,   advanced   feedback   control   ",
+   "technologies,  known  as  Industrial",
+   " ",
+   "Control  Systems  ",
+   "(ICS),  will  be  governing  the  operability  of  these  ",
+   "systems,  and  hence,  its  reliability  and  security  are  ",
+   "extremely critical. ",
+   " ",
+   "Over the last decade, the security of ICS ha",
+   "s",
+   " ",
+   "been ",
+   "investigated   by   many",
+   " ",
+   "researchers",
+   ".   Most   of   them",
+   " ",
+   "focused  on  introd",
+   "ucing  cybersecurity  vulnerabilities"
+  ]
+ },
+ {
+  "name": "g_d0_f19",
+  "rowTexts": [
+   "’"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "assessments  and  suggesting  the  imperative",
+   " ",
+   "need  of  ",
+   "customized   Information   T",
+   "echnology   (IT)   security   ",
+   "mechanisms",
+   " ",
+   "to  validate  the  proper  performance  and  ",
+   "safety    requirements",
+   " ",
+   "for    ICS    ",
+   "[4",
+   "-",
+   "6]",
+   ".",
+   " ",
+   "Given    the    ",
+   "increasing   availability   of",
+   " ",
+   "software   platforms   and   ",
+   "internet",
+   "-",
+   "based    capabilities    incorporated    to    these    ",
+   "controlling systems, CPS has been exposed",
+   " ",
+   "to",
+   " ",
+   "further ",
+   "vulnerabilities  from  the  cybersecurity  point  of  view.  ",
+   "Hence,  the  purpose  of  this  paper  is  to  develop  a  ",
+   "simulation",
+   "-",
+   "based    model    tha",
+   "t    will    permit",
+   " ",
+   "the ",
+   "manufacturing sector",
+   " ",
+   "to assess the effects on",
+   " "
+  ]
+ },
+ {
+  "name": "g_d0_f19",
+  "rowTexts": [
+   "systems’"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "performance",
+   " ",
+   "metrics",
+   " ",
+   "under  the  potential  presence  of  ",
+   "cyber",
+   "-",
+   "threats",
+   " ",
+   "throughout their continuous operations",
+   ".",
+   " ",
+   "Manufacturing     companies     have     increasingly     ",
+   "adopted  these  Cyber",
+   "-",
+   "Physical  techno",
+   "logies  for  their  ",
+   "processes,   where   software   capabilities   work   in   ",
+   "conjunction   with   human   resources",
+   " ",
+   "(i.e.   Human",
+   "-",
+   "Machine",
+   "-",
+   "Interface)",
+   " ",
+   "as  a  multi",
+   "-",
+   "level  architecture  [1].",
+   " ",
+   "The",
+   "s",
+   "e",
+   " ",
+   "type  of  intelligent  systems",
+   " ",
+   "will",
+   " ",
+   "promote ",
+   "real",
+   "-",
+   "time  and  collaborative  ",
+   "interaction",
+   "s",
+   " ",
+   "by  implementing  ",
+   "information  analytics  and  networked  ",
+   "resources",
+   " ",
+   "that ",
+   "will  be  able  to  drive  results  to  the  manufacturing  "
+  ]
+ },
+ {
+  "name": "g_d0_f20",
+  "rowTexts": [
+   "industry more efficiently and collaboratively"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "through ",
+   "internet",
+   "-",
+   "based       applications,",
+   " ",
+   "including       cloud       ",
+   "computing.  Unfortunately,  these  new  capa",
+   "bilities  are  ",
+   "also",
+   " ",
+   "augmenting  the  risk  of  potential  cyber",
+   "-",
+   "attacks ",
+   "from malicious outsiders",
+   " ",
+   "in manufacturing systems",
+   ". ",
+   " ",
+   "Cybersecurity   has   become   one   of   the   major   ",
+   "concerns   for   CPS   operability   and   their   tangible   ",
+   "components for the last decade. In fact, The Nati",
+   "onal ",
+   "Institute    of    Standards    and    Technology    (NIST)    ",
+   "emphasized   the   importance   of   strengthen",
+   "ing",
+   " ",
+   "the ",
+   "cybersecurity   of   the   computer",
+   "-",
+   "controlled   systems   ",
+   "within  any  physical  process,  while  revealing  that  ",
+   "cyber",
+   "-",
+   "attacks    could    have    been    translated    into    ",
+   "approximately ",
+   "$400B of direct costs for companies per ",
+   "year  around  the  globe,  with  numerous  documented  ",
+   "incidents   [7].   Malicious   attacks   can   compromise   ",
+   "automated processes in many possible ways, as several ",
+   "situations    have    been    exemplified    where    the    ",
+   "manufacturing sector co",
+   "uld ",
+   "be a huge potential target ",
+   "[8].    C",
+   "yber",
+   "-",
+   "attacks    not    only",
+   " ",
+   "can",
+   " ",
+   "affect    design    ",
+   "parameters,   overall   performance   or   even   quality   ",
+   "control (QC) procedures, but also disrupt the product ",
+   "and system design process, so as to make an adverse ",
+   "impact   on   the   design   inte",
+   "nt   of   the   product",
+   " ",
+   "for ",
+   "manufacturing companies",
+   ". ",
+   " ",
+   "Currently, most manufacturing companies consider ",
+   "that     there     could     be     innumerable     potential     ",
+   "cybersecurity risks, thus aiming to invest in protection ",
+   "against  each  type  of  malicious  attack  appears  to  be  ",
+   "infeasib",
+   "le",
+   ".  That  is  why  the  current  problem  for  this  ",
+   "industry  is  analyzing  what  could  be  the  appropriate  ",
+   "countermeasures   (i.e.   defense   policies)   that   will   ",
+   "promote  a  fair  immunity  threshold  where  they  can  ",
+   "ensure proper functionality of their CPS",
+   " ",
+   "with  similar  ",
+   "perfor",
+   "mance",
+   ",  while  taking  into  consideration  their  ",
+   "actual  financial  structure.  Thus,  there  is  a  need  of  ",
+   "developing  quantitative  models  that  can  evaluate  the  ",
+   "behavior  under  security  breaches  for  a  CPS  in  the  ",
+   "manufacturing sector. ",
+   " ",
+   "This study address",
+   "es",
+   " ",
+   "the impact of having different ",
+   "controllable   defense",
+   " ",
+   "policies",
+   " ",
+   "from   the   company"
+  ]
+ },
+ {
+  "name": "g_d0_f19",
+  "rowTexts": [
+   "’s"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "standpoint,   while   having",
+   " ",
+   "different   security",
+   "-",
+   "based ",
+   "parameters ",
+   "form the attacker"
+  ]
+ },
+ {
+  "name": "g_d0_f19",
+  "rowTexts": [
+   "’s"
+  ]
+ },
+ {
+  "name": "g_d0_f14",
+  "rowTexts": [
+   " ",
+   "standpoint",
+   ". A discrete",
+   "-",
+   "event simulation model ",
+   "is",
+   " ",
+   "proposed, given its proven ",
+   "reliability   for   ev",
+   "aluating   the   impact   of   specific   ",
+   "circumstances     in     manufacturing     systems",
+   " ",
+   "and ",
+   "potentially enhancing business decisions",
+   " ",
+   "[9",
+   "-",
+   "12]. ",
+   " ",
+   "The  main  contributions  of  this  paper  will  be  as  ",
+   "f",
+   "ollows: (i) Modeling the",
+   " ",
+   "behavior of ",
+   "a manufacturing ",
+   " ",
+   "system ",
+   "in normal ",
+   "condition",
+   " ",
+   "a",
+   "nd under security attacks ",
+   "through   simulation   software,   (ii)   Examining   how   ",
+   "different ",
+   "controllable",
+   " ",
+   "and ",
+   "uncontrollable",
+   " ",
+   "factors",
+   ", such ",
+   "as ",
+   "resource  capacity",
+   ",",
+   " ",
+   "reorder  policies,",
+   " ",
+   "mean  time  ",
+   "between   attacks,   single   or   multiple   simultaneous   ",
+   "attackers and ",
+   "mean time to ",
+   "recover from attacks",
+   " ",
+   "may ",
+   "affect  the  performa",
+   "nce  of  the  CPS  in  manufacturing",
+   ", ",
+   "(iii)  Using  a  ",
+   "simplified ",
+   "game  theoretic  approach  to  ",
+   "mimic",
+   " ",
+   "the   interaction   bet",
+   "ween   the   attacker   ",
+   "and",
+   " ",
+   "defender,  and",
+   " ",
+   "(iv)  Assessing  the  effects  of  factors  ",
+   "based  on  performance  metrics",
+   " ",
+   "such  as  throughput,  ",
+   "work",
+   "-",
+   "in",
+   "-",
+   "process,  customer  lead  time,  and  utilization  ",
+   "rates, through the proposed ",
+   "discrete",
+   "-",
+   "event simulation",
+   " ",
+   "model.",
+   " ",
+   "The  rest  of  this  paper  is  organized  as  follows.  ",
+   "Section  2  summarizes  related  work  in  the  fields  of  "
+  ]
+ }
+]

@@ -20,19 +20,6 @@ var outputPath = "./output/"+paperName+".json";
 // callback
 var printPageNo = 1;
 
-function collectFontNamesForWholePage(pageRows) {
-    var fontNames = {};
-    for (let row of pageRows) {
-        if(!fontNames[row.fontName]) {
-            fontNames[row.fontName] = [];
-            fontNames[row.fontName].push(row.str);
-        } else {
-            fontNames[row.fontName].push(row.str);
-        }
-    }
-    return fontNames;
-}
-
 function groupTextByConsecutiveFontNames(pageRows) {
     var fontNamesArray = [];
     var previousRowFont = "";
@@ -51,6 +38,18 @@ function groupTextByConsecutiveFontNames(pageRows) {
         }
     }
     return fontNamesArray;
+}
+
+function printFirstNRows(pageRows, N) {
+  var i = 0;
+  for (let row of pageRows) {
+    if(i < N) {
+      console.log(row)
+      i++;
+    } else {
+      break;
+    }
+  }
 }
 
 var fontNames;
@@ -77,7 +76,9 @@ loadingTask.promise.then(function(doc) {
       return page.getTextContent().then(function (content) {
         // Content contains lots of information about the text layout and
         // styles, but we need only strings at the moment
+        console.log(content);
         fontNames = groupTextByConsecutiveFontNames(content.items);
+        printFirstNRows(content.items, 20);
         //var strings = content.items.map(function (item) {
         //  return item.str;
         //});
